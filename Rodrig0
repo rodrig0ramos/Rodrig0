@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo | Operations & Innovation Leader</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-inter">
+    <!-- Hero Section -->
+    <header class="bg-navy text-white py-20 text-center">
+        <h1 class="text-4xl md:text-5xl font-poppins">Rodrigo</h1>
+        <p class="mt-2 text-xl">Driving Efficiency, Inspiring Innovation</p>
+        <img src="profile.jpg" alt="Rodrigo" class="mt-6 w-32 h-32 rounded-full mx-auto border-4 border-orange-500">
+    </header>
+
+    <!-- About Section -->
+    <section class="py-16 px-4 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-poppins text-navy text-center">About Me</h2>
+        <p class="mt-4 text-lg text-center">
+            I’m Rodrigo, a passionate leader in operations and innovation, with a knack for streamlining processes and boosting team morale. From optimizing scheduling at Sonic Tools to crafting creative projects like music and cultural research, I thrive on solving complex problems with practical solutions. My vision? To drive efficiency and inspire progress in every endeavor.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="bg-gray-100 py-16 px-4">
+        <h2 class="text-3xl font-poppins text-navy text-center">Skills & Expertise</h2>
+        <div class="mt-8 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="text-center">
+                <h3 class="text-xl font-poppins text-orange-500">Operations</h3>
+                <p>Streamlining workflows with tools like Epicor and daily planning.</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-xl font-poppins text-orange-500">Leadership</h3>
+                <p>Building cohesive teams through events and clear communication.</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-xl font-poppins text-orange-500">Creativity</h3>
+                <p>Crafting engaging projects, from songs to cultural analyses.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-16 px-4 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-poppins text-navy text-center">Key Projects</h2>
+        <div class="mt-8 space-y-6">
+            <div>
+                <h3 class="text-xl font-poppins text-orange-500">Scheduling Overhaul</h3>
+                <p>Revamped Sonic Tools’ scheduling for better lead times and Epicor integration, boosting efficiency.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-poppins text-orange-500">Team-Building Initiatives</h3>
+                <p>Designed the Sonic Picnic to align shop and office teams, enhancing morale and collaboration.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-poppins text-orange-500">Creative Ventures</h3>
+                <p>Wrote a classic rock anthem for Sonic Tools, showcasing team spirit and creativity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-navy text-white py-16 px-4 text-center">
+        <h2 class="text-3xl font-poppins">Get in Touch</h2>
+        <p class="mt-4 text-lg">Let’s connect to discuss opportunities or collaborations.</p>
+        <form class="mt-6 max-w-md mx-auto space-y-4">
+            <input type="text" placeholder="Name" class="w-full p-2 rounded text-gray-800">
+            <input type="email" placeholder="Email" class="w-full p-2 rounded text-gray-800">
+            <textarea placeholder="Message" class="w-full p-2 rounded text-gray-800"></textarea>
+            <button type="submit" class="bg-orange-500 text-white py-2 px-6 rounded hover:bg-orange-600">Send</button>
+        </form>
+        <div class="mt-6">
+            <a href="mailto:yourname@yourdomain.com" class="text-orange-500 hover:underline">yourname@yourdomain.com</a> |
+            <a href="https://linkedin.com/in/yourprofile" class="text-orange-500 hover:underline">LinkedIn</a>
+        </div>
+    </section>
+
+    <style>
+        .bg-navy { background-color: #1E3A8A; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+    </style>
+</body>
+</html>
